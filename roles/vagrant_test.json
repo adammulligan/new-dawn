@@ -3,5 +3,11 @@
     "default_ruby": "ruby-2.0.0-p247",
     "rubies": ["ruby-1.9.3-p327"]
   },
+  "nodejs": {
+    "version": "0.10.21",
+    "checksum": "14174896de074c244b0ed2251a95d7163d5a5e87",
+    "checksum_linux_x64": "d236ed82967eefa726ec144301728b6a32ab8d8d",
+    "checksum_linux_x86": "5629f83b10dc95d899268c3387895085270bb9e1"
+  },
   "run_list": [ "recipe[apt]", "recipe[tmux]", "recipe[vim]", "recipe[rvm::system]" ]
 }
