@@ -10,5 +10,6 @@
     "checksum_linux_x86": "5629f83b10dc95d899268c3387895085270bb9e1"
   },
   "run_list": [ "recipe[apt]", "recipe[build-essential]",
-"recipe[tmux]", "recipe[vim]", "recipe[rvm::system]", "recipe[nodejs]" ]
+"recipe[tmux]", "recipe[vim]", "recipe[rvm::system]", "recipe[nodejs]",
+"recipe[vimorator]" ]
 }
