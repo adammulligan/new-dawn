@@ -7,7 +7,7 @@ template "#{HOME}/.vimrc" do
 end
 
 directory "#{HOME}/.vim" do
-  action :create_if_missing
+  action :create
   owner USER
 end
 
